@@ -1,2 +1,13 @@
 services:
-  
+  vulnerable:
+    build:
+      context: .
+      dockerfile: vulnerable/Dockerfile
+    ports:
+      - "127.0.0.1:5001:5001"
+  secure:
+    build:
+      context: .
+      dockerfile: secure/Dockerfile
+    ports:
+      - "127.0.0.1:5002:5002"
