@@ -1,0 +1,20 @@
+{
+  "ORD-1001": {
+    "customer_id": "CUST-001",
+    "status": "delivered",
+    "total": 129.99,
+    "items": ["fictional wireless mouse", "USB-C cable"]
+  },
+  "ORD-1002": {
+    "customer_id": "CUST-002",
+    "status": "delivered",
+    "total": 59.50,
+    "items": ["fictional desk lamp"]
+  },
+  "ORD-1003": {
+    "customer_id": "CUST-002",
+    "status": "shipped",
+    "total": 12.00,
+    "items": ["fictional notebook"]
+  }
+}
