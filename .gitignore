@@ -280,4 +280,3 @@ cython_debug/
 # demo runtime artifacts
 __pycache__/
 audit.log
-sample-data/db/refunds.json
